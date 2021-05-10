@@ -1,0 +1,100 @@
+.ui.container.Post>.ui.container.Header {
+    height: 450px;
+    position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.ui.container.Post>.ui.header.Post-Header {
+    font-size: 40pt;
+    margin-top: 50px;
+}
+
+.ui.header.image-text {
+    font-size: 44pt;
+    margin-top: 70px;
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: white;
+}
+
+.ui.container.Box-1,
+.ui.container.Box-2 {
+    font-size: 14pt;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ui.container.Box-1,
+.ui.container.Box-2,
+.ui.container.Box-3 {
+    margin-bottom: 50px;
+}
+
+.ui.form.Comment-Form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    text-align: left;
+    position: unset;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ui.comments {
+    text-align: left;
+}
+
+.ui.comments>.comment {
+    margin-bottom: 20px;
+}
+
+.ui.container.Post>.ui.container.All-Comments {
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+.ui.button.reply-button {
+    margin-left: 20px;
+}
+
+.ui.input.reply {
+    margin-right: 20px;
+}
+
+.ui.container.image-container {
+    width: 400px;
+}
+.ui.container.text-container {
+    width: 600px;
+    margin-left: 0;
+}
+
+.ui.container.image-container>.ui.image {
+    margin: 0 auto;
+}
+
+.ui.container.Box-3>p {
+    font-size: 14pt;
+}
+
+.ui.container.Box-3 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media (max-width: 1114px) {
+    .ui.container.image-container,
+    .ui.container.Box-2>.ui.container.text-container  {
+        margin-bottom: 30px;
+    }
+
+    .ui.container.Box-1,
+    .ui.container.Box-2 {
+        margin-bottom: 0;
+}
+    
+}

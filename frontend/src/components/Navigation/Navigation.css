@@ -1,0 +1,121 @@
+.ui.container.Navigation {
+    width: 1600px;
+    top: 0;
+    color: #888;
+    height: 100px;
+    padding: 35px;
+}
+
+.ui.container.Navigation::before {
+  content: '';
+  background-color: #A37C7C;
+  left: 0;
+  top: 5px;
+  width: 100%;
+  position: absolute;
+  height: 1px;
+}
+
+.ui.container.Navigation::after {
+  content: '';
+  background-color: #A37C7C;
+  left: 0;
+  top: 95px;
+  width: 100%;
+  position: absolute;
+  height: 1px;
+}
+
+.ui.container.Navigation>.ui.list.Logo >.item {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.container.Navigation>.ui.list >.item > i.icon {
+    font-size: 18pt;    
+    color: #3F704D;
+}
+
+.ui.container.Navigation>.ui.list >.item > .Logo-text {
+  color: black;
+  font-size: 16pt;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.ui.container.Navigation>.ui.list >.item {
+    margin-right: 10px;
+    color: black;
+    font-size: 12pt;
+}
+
+.ui.container.Navigation>.ui.list >.item:last-child:hover {
+  color: pink;
+}
+
+/* ----- STICKY ----- */
+.ui.container.Navigation.sticky {
+    width: 1600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    animation: 2s ease-in-out normal none running navi;
+    transition: 1s;
+    position: fixed;
+}
+
+/* ----- ANIMATION ----- */
+@keyframes navi {
+  from {top: -100px}
+  to {top: 0}
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.container {
+      width: 100%!important;
+      margin: 0!important;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .ui.container.Navigation {
+      width: 767px!important;
+      margin: 0!important;
+    }
+  }
+
+i.icon.Mobile {
+  font-size: 18pt;
+  position: fixed;
+  right: 30px;
+}
+
+.ui.list.Mobile {
+  right: -100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 65px;
+  padding: 20px;
+  width: 300px;
+  transition: 1.5s;
+}
+
+.ui.container.Navigation>.ui.list.Mobile>.item {
+  padding: 20px;
+  margin-right: 0;
+}
+
+.ui.list.Mobile.active {
+  display: block;
+  background-color: #666;
+  margin-top: 65px;
+  padding: 20px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  transition: 1.5s;
+}
+
+.ui.list.Mobile>.item:hover {
+  background-color: #999;
+  padding: 20px;
+  width: 100%;
+  
+}

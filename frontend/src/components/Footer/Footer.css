@@ -1,0 +1,29 @@
+.ui.container.Footer {
+    height: 300px;
+    background-color: #A37C7C;
+    padding-top: 100px;
+}
+
+
+.ui.container.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.ui.container.social-media>i {
+    font-size: 14pt;
+    margin: 10px;
+}
+
+
+.ui.container.Footer-low-section {
+    height: 100px;
+    background-color: #3F704D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,163 @@
+.ui.container.Main {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ui.container>.Main-header {
+    color: white;
+    padding-top: 250px;   
+}
+
+.ui.container.Main>.Header-text {
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 12pt;
+}
+
+.ui.form>.ui.button {
+    margin-top: 20px;
+}
+
+.ui.container.Introduction {
+    margin-top: 50px;
+}
+
+.ui.container.blog-cards {
+    display: flex;
+
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.ui.container.Carousel-Background {
+    background-color: #A37C7C;
+    margin-top: 70px;
+    margin-bottom: 300px;
+    height: 400px;
+}
+
+.alice-carousel {
+    max-width: 1130px;
+}
+
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__next-btn-wrapper {
+    position: absolute;
+    top: 40%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__prev-btn {
+    left: 20px;
+}
+
+.alice-carousel__next-btn-wrapper,
+.alice-carousel__next-btn {
+    right: 10px;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+    padding: 0;
+}
+
+.alice-carousel__prev-btn:hover,
+.alice-carousel__next-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.ui.container.middle-section {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ui.container.middle-section {
+    margin-bottom: 50px;
+}
+
+.ui.container.middle-section >p {
+    padding: 70px;
+    color: white;
+}
+
+.ui.container.Products {
+    margin-bottom: 50px;
+}
+
+.ui.container.Product-box {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ui.container.Product-text-1 {
+    width: 700px;
+    height: 500px;
+    background-color: #8FBD9C;
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90px;
+}
+
+.ui.container.Product-text-1>p {
+    margin-bottom: 50px;
+}
+
+.ui.container.Product-image-1 {
+    background-image: url('img/pancakes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    margin: 0;
+} 
+
+.ui.container.Product-text-2 {
+    width: 700px;
+    height: 500px;
+    background-color: #FFDBDB;
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90px;
+}
+
+.ui.container.Product-text-2>p {
+    margin-bottom: 50px;
+}
+
+.ui.container.Product-image-2 {
+    background-image: url('img/cheesecake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    margin: 0;
+} 

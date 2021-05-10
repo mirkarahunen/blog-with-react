@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.ui.container>h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40pt;
+}
+
+.ui.container>h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30pt;
+}
+
+.ui.container {
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+}
+
+.ui.container p {
+  font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    padding: 50px;
+  }
+}
+
